@@ -1,0 +1,45 @@
+@font-face {
+	font-family: Proxima Nova;
+	src: url(fonts/ProximaNova-Regular.ttf);
+}
+
+.wrap{
+  font-family: "Proxima Nova", sans-serif;
+	height: 90vh;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.wrap h1{
+	font-size: 25px;
+	line-height: 30px;
+	color: #000;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+.wrap h2{
+	font-size: 15px;
+	line-height: 18px;
+	color: #828384;
+	font-weight: 400;
+  margin: 0;
+}
+
+.wrap a{
+	display: block;
+	padding: 11px 15px;
+	text-decoration: none;
+	background-color: #2376e5;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 20px;
+}
