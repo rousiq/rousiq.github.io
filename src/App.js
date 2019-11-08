@@ -9,7 +9,7 @@ function App () {
     <ThemeProvider theme={theme}>
       <NormalizeCSS />
       <MainCSS />
-      <h1>Hello world!</h1>
+      <h1>Rouslan Mingazov</h1>
     </ThemeProvider>
   )
 }
