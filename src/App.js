@@ -1,11 +1,15 @@
 import React from 'react'
 import {ThemeProvider} from 'styled-components'
-import {theme} from 'Themes/constants'
-import NormalizeCSS from 'Themes/NormalizeCSS'
-import MainCSS from 'Themes/MainCSS'
+import {dark, light} from 'constants/themes'
+import NormalizeCSS from 'themes/NormalizeCSS'
+import MainCSS from 'themes/MainCSS'
 import HomeContainer from 'containers/Home'
+import {storageData} from 'helpers/storage'
 
-function App () {
+const App = () => {
+  const currentTheme = storageData('theme').getValue()
+  const theme = currentTheme === 'dark' ? dark : light
+
   return (
     <ThemeProvider theme={theme}>
       <NormalizeCSS />

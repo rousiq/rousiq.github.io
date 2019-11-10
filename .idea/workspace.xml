@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9bb76c6-723b-4076-b5a5-5ac61c9ae4b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Home/HomeContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/languages/T.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/languages/data/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/languages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Themes/MainCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Themes/MainCSS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Themes/NormalizeCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Themes/NormalizeCSS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Themes/MainCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/MainCSS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Themes/NormalizeCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes/NormalizeCSS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Themes/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/themes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Themes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/helpers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="C:/Program Files/nodejs/node" />
@@ -53,12 +54,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\public\img" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\languages\en" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components\Lang" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components\Lang\Data" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\helpers" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\providers" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\hocs" />
       <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\Themes" />
       <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\public" />
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +92,8 @@
       <updated>1573244740936</updated>
       <workItem from="1573244745195" duration="2355000" />
       <workItem from="1573247267970" duration="176000" />
-      <workItem from="1573369689764" duration="2516000" />
+      <workItem from="1573369689764" duration="10463000" />
+      <workItem from="1573395369390" duration="2532000" />
     </task>
     <servers />
   </component>

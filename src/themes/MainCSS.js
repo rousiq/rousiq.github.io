@@ -2,8 +2,8 @@ import {createGlobalStyle} from 'styled-components'
 
 export default createGlobalStyle`
   body{
-    background: #fff;
-    color: #000;
+    background: ${({theme}) => theme.background.primary};
+    color: ${({theme}) => theme.color.primary};
     font-size: 16px;
     line-height: 110%;
   }

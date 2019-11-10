@@ -8230,6 +8230,11 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
+react-use-localstorage@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/react-use-localstorage/-/react-use-localstorage-3.3.2.tgz#184ab0a442772e1ed8cc82de291845bab00fb98f"
+  integrity sha512-5pVtbOYBjZm4rIKaPYyBl9w8fe8ZbspschHv61UCLftYhhwKVF01XeEvBQuaXzBXFhiCzS7/qV56oJvfuPF3Pw==
+
 react@^16.11.0:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.11.0.tgz#d294545fe62299ccee83363599bf904e4a07fdbb"
