@@ -1,6 +1,6 @@
 {
   "short_name": "Portfolio",
-  "name": "Rouslan's portfolio",
+  "name": "Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "img/logo192.png",
+      "src": "img/icon-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "img/logo512.png",
+      "src": "img/icon-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

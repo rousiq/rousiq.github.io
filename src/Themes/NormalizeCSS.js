@@ -59,6 +59,7 @@ export default createGlobalStyle`
     margin: 0;
     font-size: inherit;
     font-weight: 500;
+    color: #000;
   }
   
   audio, video {
@@ -117,7 +118,7 @@ export default createGlobalStyle`
   button, input, optgroup, select, textarea {
     padding: 0;
     margin: 0;
-    border: 1px solid #cccccc;
+    border: none;
     border-radius: 0;
     box-shadow: none;
     background-color: transparent;
