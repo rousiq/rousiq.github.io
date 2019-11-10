@@ -2,6 +2,7 @@ import {createGlobalStyle} from 'styled-components'
 
 export default createGlobalStyle`
   body{
+    font-family: 'Roboto', sans-serif;
     background: ${({theme}) => theme.background.primary};
     color: ${({theme}) => theme.color.primary};
     font-size: 16px;
@@ -12,5 +13,7 @@ export default createGlobalStyle`
     letter-spacing: 0.24px;
     line-height: 70px;
     margin-bottom: 16px;
+    font-weight: 700;
+    color: ${({theme}) => theme.color.primary};
   }
 `

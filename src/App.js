@@ -3,7 +3,7 @@ import {ThemeProvider} from 'styled-components'
 import {dark, light} from 'constants/themes'
 import NormalizeCSS from 'themes/NormalizeCSS'
 import MainCSS from 'themes/MainCSS'
-import HomeContainer from 'containers/Home'
+import Home from 'containers/Home'
 import {storageData} from 'helpers/storage'
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <NormalizeCSS />
       <MainCSS />
-      <HomeContainer />
+      <Home />
     </ThemeProvider>
   )
 }

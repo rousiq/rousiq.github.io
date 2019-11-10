@@ -84,6 +84,7 @@ export default createGlobalStyle`
     background-color: transparent;
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
   }
   
   a:hover{

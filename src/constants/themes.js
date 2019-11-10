@@ -1,27 +1,29 @@
-export const dark = {
-  palette: {
-    primary: '#2c3a50',
-    black: '#000',
-    white: '#fff'
-  },
+export const light = {
   background: {
-    primary: '#000'
+    primary: '#fff'
   },
   color: {
-    primary: '#fff'
+    primary: '#1a1a1a',
+    minor: '#959da5',
+    link: '#0371ff',
+    linkHover: '#287094'
+  },
+  transition: {
+    primary: 'all .2s ease-out'
   }
 }
 
-export const light = {
-  palette: {
-    primary: '#2c3a50',
-    black: '#000',
-    white: '#fff'
-  },
+export const dark = {
   background: {
-    primary: '#fff'
+    primary: '#24292e'
   },
   color: {
-    primary: '#000'
+    primary: '#fff',
+    minor: '#959da5',
+    link: '#fff',
+    linkHover: '#287094'
+  },
+  transition: {
+    primary: 'all .2s ease-out'
   }
 }

@@ -1,4 +1,5 @@
 {
-  "Привет мир": "Hello world",
-  "English": "Русский"
+  "En": "Ру",
+  "Здравствуй! Я Руслан Мингазов, Веб-Разработчик из Москвы.": "Hi! I’m Ruslan Mingazov Web–Developer from Moscow.",
+  "В настоящее время живу в Москве. Специализируюсь на разработке сайтов и Веб-Приложений. Работаю с HTML, CSS и JS. Опыт разработки Single Page Applications (ReactJS, Redux, RestAPI, PWA). Умению работать с Git.": "Currently I live in Moscow. Specialised in Web-Applications. Work with HTML, CSS & JS. Know Development of Single Page Applications (ReactJS, Redux, RestAPI, PWA). Know Git."
 }
