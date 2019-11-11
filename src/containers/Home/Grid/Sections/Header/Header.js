@@ -1,9 +1,20 @@
 import React from 'react'
-import styled from 'styled-components'
-import useLocalStorage from 'react-use-localstorage'
+import styled, {keyframes} from 'styled-components'
 import {Moon as MoonIcon, Sun as SunIcon} from 'react-feather'
 import T from 'languages'
+import {storageData} from 'helpers/storage'
 
+const animation = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+`
 const Wrap = styled('header')`
   display: flex;
   align-items: center;
@@ -16,8 +27,23 @@ const Logo = styled('a')`
   color: ${({theme}) => theme.color.primary};
   font-size: 20px;
   font-weight: 600;
-  letter-spacing: 10px;
   transition: ${({theme}) => theme.transition.primary};
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  span{
+    display: block;
+    margin: 0 10px 0 0;
+    &:first-child{
+      animation: ${animation} 10s ease-in-out 3s infinite;
+    }
+    &:nth-child(2){
+      animation: ${animation} 10s ease-in-out 6s infinite;
+    }
+    &:last-child{
+      animation: ${animation} 10s ease-in-out 9s infinite;
+    }
+  }
   &:hover{
     color: ${({theme}) => theme.color.linkHover};
     transition: ${({theme}) => theme.transition.primary};
@@ -56,31 +82,54 @@ const Button = styled('button')`
   color: ${({theme}) => theme.color.minor};
   background: #fff;
   font-weight: 700;
+  transition: ${({theme}) => theme.transition.primary};
   svg{
     max-width: 20px;
     max-height: 20px;
     color: ${({theme}) => theme.color.minor};
     fill: ${({theme}) => theme.color.minor};
+    transition: ${({theme}) => theme.transition.primary};
+  }
+  &:hover{
+    color: ${({theme}) => theme.color.linkHover};
+    transition: ${({theme}) => theme.transition.primary};
+    svg{
+      color: ${({theme}) => theme.color.linkHover};
+      fill: ${({theme}) => theme.color.linkHover};
+      transition: ${({theme}) => theme.transition.primary};
+    }
   }
 `
 
-const Header = () => {
-  const [lang, setLang] = useLocalStorage('language', '')
-  const [theme, setTheme] = useLocalStorage('theme', '')
+const Header = (props) => {
+  const {
+    language,
+    theme,
+    setLanguage,
+    setTheme
+  } = props
 
   const handleSetLang = () => {
-    setLang(lang === '"en"' ? '"ru"' : '"en"')
+    const i = language === 'ru' ? 'en' : 'ru'
+    setLanguage(i)
+    storageData('language').setValue(i)
   }
   const handleSetTheme = () => {
-    setTheme(theme === '"dark"' ? '"light"' : '"dark"')
+    const i = theme === 'light' ? 'dark' : 'light'
+    setTheme(i)
+    storageData('theme').setValue(i)
   }
-  const themeIcon = theme === '"dark"' ? <SunIcon /> : <MoonIcon />
+  const themeIcon = theme === 'dark' ? <SunIcon /> : <MoonIcon />
 
   return (
     <Wrap>
-      <Logo>ROU</Logo>
+      <Logo>
+        <span>R</span>
+        <span>O</span>
+        <span>U</span>
+      </Logo>
       <RightBar>
-        <Email>mrousia@gmail.com</Email>
+        <Email href={'mailto:mrousia@gmail.com'}>mrousia@gmail.com</Email>
         <Button onClick={handleSetTheme}>{themeIcon}</Button>
         <Button onClick={handleSetLang}><T>En</T></Button>
       </RightBar>

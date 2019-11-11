@@ -20,7 +20,7 @@ export const dark = {
   color: {
     primary: '#fff',
     minor: '#959da5',
-    link: '#fff',
+    link: '#48b0d8',
     linkHover: '#287094'
   },
   transition: {

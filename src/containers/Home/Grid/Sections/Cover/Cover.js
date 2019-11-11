@@ -19,7 +19,7 @@ const Cover = () => {
   return (
     <Wrap>
       <h1><T>Здравствуй! Я Руслан Мингазов, Веб-Разработчик из Москвы.</T></h1>
-      <Description><T>В настоящее время живу в Москве. Специализируюсь на разработке сайтов и Веб-Приложений. Работаю с HTML, CSS и JS. Опыт разработки Single Page Applications (ReactJS, Redux, RestAPI, PWA). Умению работать с Git.</T></Description>
+      <Description><T>В настоящее время живу в Москве. Специализируюсь на разработке сайтов и Веб-Приложений. Работаю с HTML, CSS и JS. Опыт разработки Single Page Applications (ReactJS, Redux, RestAPI, PWA). Умею работать с Git.</T></Description>
     </Wrap>
   )
 }

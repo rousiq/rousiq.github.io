@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9bb76c6-723b-4076-b5a5-5ac61c9ae4b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/actions/languageAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/themeAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Home/Grid/Sections/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Home/Grid/Sections/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Home/Grid/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Home/HomeContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/createReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/toCamelCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/languageReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/themeReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/themes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/themes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Grid/HomeGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Sections/Cover/Cover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Grid/Sections/Cover/Cover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Sections/Cover/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Grid/Sections/Cover/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Sections/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Grid/Sections/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Sections/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Grid/Sections/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/languages/data/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/languages/data/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reducers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="C:/Program Files/nodejs/node" />
@@ -40,19 +67,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\reducers" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\actions" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\helpers" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\constants" />
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\containers\Home" />
       <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\languages\en" />
       <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src" />
       <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components\Lang" />
       <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components\Lang\Data" />
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\components" />
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\containers\Home\Sections" />
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\helpers" />
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\providers" />
-      <recent name="D:\Frontend\ReactJS-Projects\Portfolio\rousiq\src\hocs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,6 +109,8 @@
       <workItem from="1573369689764" duration="10463000" />
       <workItem from="1573395369390" duration="7292000" />
       <workItem from="1573446780019" duration="762000" />
+      <workItem from="1573452284804" duration="533000" />
+      <workItem from="1573489071664" duration="10653000" />
     </task>
     <servers />
   </component>

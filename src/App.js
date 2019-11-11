@@ -3,19 +3,21 @@ import {ThemeProvider} from 'styled-components'
 import {dark, light} from 'constants/themes'
 import NormalizeCSS from 'themes/NormalizeCSS'
 import MainCSS from 'themes/MainCSS'
-import Home from 'containers/Home'
-import {storageData} from 'helpers/storage'
+import HomeContainer from 'containers/Home'
+import {Provider} from 'react-redux'
+import store from 'store'
 
 const App = () => {
-  const currentTheme = storageData('theme').getValue()
-  const theme = currentTheme === 'dark' ? dark : light
+  const customTheme = store().getState().theme === 'dark' ? dark : light
 
   return (
-    <ThemeProvider theme={theme}>
-      <NormalizeCSS />
-      <MainCSS />
-      <Home />
-    </ThemeProvider>
+    <Provider store={store()}>
+      <ThemeProvider theme={customTheme}>
+        <NormalizeCSS />
+        <MainCSS />
+        <HomeContainer />
+      </ThemeProvider>
+    </Provider>
   )
 }
 
