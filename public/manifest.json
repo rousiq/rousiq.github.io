@@ -20,7 +20,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000",
+  "theme_color": "#fff",
   "background_color": "#fff",
   "dir": "ltr",
   "lang": "ru-RU",
