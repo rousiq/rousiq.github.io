@@ -26,10 +26,15 @@ const Wrap = styled('div')`
     line-height: 48px;
     color: #fff;
   }
+  h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 43px;
+    color: #fff;
+  }
   p{
     font-size: 18px;
     color: #fff;
-    margin-top: 8px;
     line-height: 40px;
   }
   a, span{
@@ -51,6 +56,7 @@ const WorkCard = (props) => {
     link,
     title,
     year,
+    subtitle,
     img
   } = props
 
@@ -60,6 +66,7 @@ const WorkCard = (props) => {
     >
       <div>
         <h4><T>{title}</T></h4>
+        <h3><T>{subtitle}</T></h3>
         <p>{year}</p>
       </div>
       {link

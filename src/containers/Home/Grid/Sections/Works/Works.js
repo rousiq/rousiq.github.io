@@ -26,25 +26,29 @@ const Works = () => {
     <Wrap>
       <LeftBar>
         <WorkCard
-          title={'Rhythm ERP PWA'}
+          title={'Rhythm Mobile ERP'}
+          subtitle={'ReactJS PWA'}
           year={'2019'}
           link={'#'}
           img={rhythmCover}
         />
         <WorkCard
           title={'Control system for Agromir'}
+          subtitle={'ReactJS PWA'}
           year={'2019'}
           img={agromirCover}
         />
       </LeftBar>
       <RightBar>
         <WorkCard
-          title={'Trainings Forum form Centil'}
+          title={'Trainings Forum for Centil'}
+          subtitle={'ReactJS'}
           year={'2019'}
           img={centilCover}
         />
         <WorkCard
           title={'Rhythm LP'}
+          subtitle={'ReactJS'}
           year={'2019'}
           img={lpCover}
         />
