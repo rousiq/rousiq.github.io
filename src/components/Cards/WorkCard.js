@@ -12,7 +12,7 @@ const Wrap = styled('div')`
   margin-bottom: 40px;
   width: 472px;
   height: 600px;
-  background: url(${({img}) => img || workCover}) no-repeat;
+  background: url(${({img}) => img || workCover}) no-repeat #ccc;
   background-size: cover;
   transform: scale(.5);
   opacity: 0;
