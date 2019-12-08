@@ -5,20 +5,33 @@ import centilCover from 'images/centilCover.jpg'
 import agromirCover from 'images/agromirCover.jpg'
 import lpCover from 'images/lpCover.jpg'
 import rhythmCover from 'images/workCover.jpg'
+import {mediaQueries} from 'constants/mediaQueries'
 
 const Wrap = styled('div')`
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+   @media ${mediaQueries.tabletS}{
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-self: flex-start;
+   }
 `
 const Bar = styled('div')`
-  width: 50%;
+  width: calc(50% - 20px);
+  @media ${mediaQueries.tabletS}{
+    width: 100%;
+    & > div {
+      margin: 0 auto 40px;
+    }
+  }
 `
-const LeftBar = styled(Bar)`
-  margin-right: 40px;
-`
+const LeftBar = styled(Bar)``
 const RightBar = styled(Bar)`
   margin-top: 40px;
+  @media ${mediaQueries.tabletS}{
+   margin-top: 0;
+  }
 `
 
 const Works = () => {

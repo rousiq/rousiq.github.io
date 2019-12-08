@@ -1,8 +1,9 @@
 import React from 'react'
 import styled, {keyframes} from 'styled-components'
-import {Moon as MoonIcon, Sun as SunIcon} from 'react-feather'
+import {Moon as MoonIcon, Sun as SunIcon, Mail as MailIcon} from 'react-feather'
 import T from 'languages'
 import {storageData} from 'helpers/storage'
+import {mediaQueries} from 'constants/mediaQueries'
 
 const animation = keyframes`
   0% {
@@ -22,6 +23,13 @@ const Wrap = styled('header')`
   width: 100%;
   height: 100px;
   padding: 0 40px;
+  @media ${mediaQueries.tabletM}{
+    padding: 0 20px;
+    height: 70px;
+  }
+  @media ${mediaQueries.mobileL}{
+    padding: 0 10px;
+  }
 `
 const Logo = styled('a')`
   color: ${({theme}) => theme.color.primary};
@@ -50,6 +58,7 @@ const Logo = styled('a')`
   }
 `
 const Email = styled('a')`
+  display: block;
   font-size: 15px;
   font-weight: 500;
   color: ${({theme}) => theme.color.link};
@@ -58,6 +67,9 @@ const Email = styled('a')`
   &:hover{
     color: ${({theme}) => theme.color.linkHover};
     transition: ${({theme}) => theme.transition.primary};
+  }
+  @media ${mediaQueries.tabletS}{
+    display: none;
   }
 `
 const RightBar = styled('div')`
@@ -87,7 +99,7 @@ const Button = styled('button')`
     max-width: 20px;
     max-height: 20px;
     color: ${({theme}) => theme.color.minor};
-    fill: ${({theme}) => theme.color.minor};
+    fill: ${({theme, filledIcon}) => filledIcon && theme.color.minor};
     transition: ${({theme}) => theme.transition.primary};
   }
   &:hover{
@@ -95,9 +107,15 @@ const Button = styled('button')`
     transition: ${({theme}) => theme.transition.primary};
     svg{
       color: ${({theme}) => theme.color.linkHover};
-      fill: ${({theme}) => theme.color.linkHover};
+      fill: ${({theme, filledIcon}) => filledIcon && theme.color.linkHover};
       transition: ${({theme}) => theme.transition.primary};
     }
+  }
+`
+const CustomButton = styled(Button)`
+  display: none;
+  @media ${mediaQueries.tabletS}{
+    display: flex;
   }
 `
 
@@ -120,6 +138,7 @@ const Header = (props) => {
     storageData('theme').setValue(i)
   }
   const themeIcon = theme === 'dark' ? <SunIcon /> : <MoonIcon />
+  const toMail = 'mailto:mrousia@gmail.com'
 
   return (
     <Wrap>
@@ -129,9 +148,10 @@ const Header = (props) => {
         <span>U</span>
       </Logo>
       <RightBar>
-        <Email href={'mailto:mrousia@gmail.com'}>mrousia@gmail.com</Email>
-        <Button onClick={handleSetTheme}>{themeIcon}</Button>
-        <Button onClick={handleSetLang}><T>En</T></Button>
+        <Email href={toMail}>mrousia@gmail.com</Email>
+        <a href={toMail}><CustomButton><MailIcon /></CustomButton></a>
+        <Button filledIcon onClick={handleSetTheme}>{themeIcon}</Button>
+        <Button filledIcon onClick={handleSetLang}><T>En</T></Button>
       </RightBar>
     </Wrap>
   )

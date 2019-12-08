@@ -1,4 +1,5 @@
 import {createGlobalStyle} from 'styled-components'
+import {mediaQueries} from 'constants/mediaQueries'
 
 export default createGlobalStyle`
   body{
@@ -15,5 +16,13 @@ export default createGlobalStyle`
     margin-bottom: 16px;
     font-weight: 700;
     color: ${({theme}) => theme.color.primary};
+    @media ${mediaQueries.tabletM}{
+      font-size: 40px;
+      line-height: 55px;
+    }
+    @media ${mediaQueries.mobileL}{
+      font-size: 35px;
+      line-height: 45px;
+    }
   }
 `
