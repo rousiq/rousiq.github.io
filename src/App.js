@@ -19,7 +19,7 @@ const App = () => {
         <Router>
           <Redirect
             path={'*'}
-            to={ROUTES.ROOT_PATH}
+            to={ROUTES.HOME_PATH}
             exact
           />
           <Switch>
