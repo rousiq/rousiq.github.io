@@ -11,11 +11,11 @@ const Wrap = styled('div')`
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 0 20px;
    @media ${mediaQueries.tabletS}{
      flex-flow: column nowrap;
      justify-content: center;
      align-self: flex-start;
+     padding: 0 20px;
    }
 `
 const Bar = styled('div')`
