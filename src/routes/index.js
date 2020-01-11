@@ -5,7 +5,7 @@ import HomeContainer from 'containers/Home/HomeContainer'
 export default [
   // Home
   {
-    path: ROUTES.HOME_PATH,
+    path: ROUTES.ROOT_PATH,
     layout: Layout,
     component: HomeContainer
   }

@@ -8,19 +8,15 @@ import Works from 'containers/Home/Grid/Sections/Works'
 
 const HomeGrid = (props) => {
   const {
-    language,
-    theme,
-    setLanguage,
-    setTheme
+    useHandlers,
+    ...restProps
   } = props
 
   return (
     <Layout>
       <Header
-        language={language}
-        theme={theme}
-        setLanguage={setLanguage}
-        setTheme={setTheme}
+        useHandlers={useHandlers}
+        {...restProps}
       />
       <Container>
         <Cover />

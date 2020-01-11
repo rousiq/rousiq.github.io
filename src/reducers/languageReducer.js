@@ -1,8 +1,7 @@
 import createReducer from 'helpers/createReducer'
 import {storageData} from 'helpers/storage'
 
-const lang = storageData('language').getValue()
-const defaultState = lang || 'ru'
+const defaultState = storageData('language').getValue() || 'ru'
 
 export const actions = (actionName) => ({
   [`${actionName}`] (state, action) {

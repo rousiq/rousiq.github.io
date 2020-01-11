@@ -123,9 +123,13 @@ const Header = (props) => {
   const {
     language,
     theme,
+    useHandlers
+  } = props
+
+  const {
     setLanguage,
     setTheme
-  } = props
+  } = useHandlers
 
   const handleSetLang = () => {
     const i = language === 'ru' ? 'en' : 'ru'
