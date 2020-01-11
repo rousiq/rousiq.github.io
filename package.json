@@ -1,6 +1,5 @@
 {
   "name": "rousiq",
-  "homepage": "http://rousiq.github.io/rousiq",
   "author": "Rouslan Mingazov",
   "email": "mrousia@gmail.com",
   "version": "0.0.1",
@@ -14,7 +13,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-standard": "^4.0.1",
-    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "ramda": "^0.26.1",
     "react": "^16.11.0",
@@ -38,9 +36,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src",
-    "fix": "eslint --fix src",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "fix": "eslint --fix src"
   },
   "eslintConfig": {
     "extends": "react-app"
