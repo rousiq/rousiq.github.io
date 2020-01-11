@@ -1,4 +1,4 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import workCover from 'images/workCover.jpg'
 import {ChevronRight as ArrowIcon} from 'react-feather'
@@ -39,7 +39,7 @@ const Wrap = styled('div')`
     line-height: 40px;
     color: #fff;
   }
-  a, span{
+  b, span{
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -47,9 +47,10 @@ const Wrap = styled('div')`
     flex-flow: row nowrap;
     align-items: center;
   }
-  a:hover{
+  b:hover{
     opacity: .8;
     transition: all .3s ease-in-out;
+    cursor: pointer;
   }
   @media ${mediaQueries.tabletL}{
     padding: 35px;
@@ -117,27 +118,24 @@ const Wrap = styled('div')`
 
 const WorkCard = (props) => {
   const {
-    link,
     title,
     year,
     subtitle,
-    img
+    img,
+    withDetail
   } = props
-
-  const myRef = useRef(null)
 
   return (
     <Wrap
       img={img}
-      ref={myRef}
     >
       <div>
         <h4><T>{title}</T></h4>
         <h3><T>{subtitle}</T></h3>
         <p>{year}</p>
       </div>
-      {link
-        ? <a href={link}><T>Подробнее</T> <ArrowIcon size={16} /></a>
+      {withDetail
+        ? <b onClick={() => alert('Скоро')}><T>Подробнее</T> <ArrowIcon size={16} /></b>
         : <span><T>Скоро</T></span>}
     </Wrap>
   )

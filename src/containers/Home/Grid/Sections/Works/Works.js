@@ -48,12 +48,12 @@ const Works = () => {
           title={'Rhythm Mobile ERP'}
           subtitle={'ReactJS PWA'}
           year={'2019'}
-          link={'#'}
           img={rhythmCover}
+          withDetail
         />
         <WorkCard
-          title={'Control system for Agromir'}
-          subtitle={'ReactJS PWA'}
+          title={'Cotton picking monitoring'}
+          subtitle={'ReactJS'}
           year={'2019'}
           img={agromirCover}
         />

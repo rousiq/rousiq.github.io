@@ -28,6 +28,7 @@
     "redux-promise-middleware": "^6.1.2",
     "redux-thunk": "^2.3.0",
     "rxjs": "^6.5.3",
+    "sprintf-js": "^1.1.2",
     "styled-components": "^4.4.1"
   },
   "scripts": {

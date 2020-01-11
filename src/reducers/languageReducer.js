@@ -1,4 +1,4 @@
-import createReducer from 'helpers/createReducer'
+import createReducer from 'reducers/createReducer'
 import {storageData} from 'helpers/storage'
 
 const defaultState = storageData('language').getValue() || 'ru'
