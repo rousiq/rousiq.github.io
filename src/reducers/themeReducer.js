@@ -2,7 +2,7 @@ import createReducer from 'helpers/createReducer'
 import {storageData} from 'helpers/storage'
 
 const theme = storageData('theme').getValue()
-const defaultState = theme || 'light'
+const defaultState = theme || 'dark'
 
 export const actions = (actionName) => ({
   [`${actionName}`] (state, action) {

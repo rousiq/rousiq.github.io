@@ -34,7 +34,6 @@ export default createGlobalStyle`
     width: 100%;
     margin: 0;
     overflow-y: auto;
-    //overflow-x: hidden;
   }
   
   :focus {

@@ -16,8 +16,6 @@ const Wrap = styled('div')`
   height: 600px;
   background: url(${({img}) => img || workCover}) no-repeat #ccc;
   background-size: cover;
-  //transform: scale(.5);
-  //opacity: 0;
   transition: background-position .5s ease-in-out, 1s transform ease-in-out, 1s opacity ease-in-out;
   overflow: hidden;
   &:hover{
@@ -127,40 +125,6 @@ const WorkCard = (props) => {
   } = props
 
   const myRef = useRef(null)
-
-  // const visible = () => {
-  //   const el = myRef.current
-  //   const targetPosition = {
-  //     top: window.pageYOffset + el.getBoundingClientRect().top,
-  //     left: window.pageXOffset + el.getBoundingClientRect().left,
-  //     right: window.pageXOffset + el.getBoundingClientRect().right,
-  //     bottom: window.pageYOffset + el.getBoundingClientRect().bottom
-  //   }
-  //   const windowPosition = {
-  //     top: window.pageYOffset,
-  //     left: window.pageXOffset,
-  //     right: window.pageXOffset + document.documentElement.clientWidth,
-  //     bottom: window.pageYOffset + document.documentElement.clientHeight
-  //   }
-  //   if ((targetPosition.bottom > windowPosition.top &&
-  //     targetPosition.top < windowPosition.bottom &&
-  //     targetPosition.right > windowPosition.left &&
-  //     targetPosition.left < windowPosition.right) ||
-  //     window.pageYOffset === 0) {
-  //     el.style.transform = 'scale(1)'
-  //     el.style.opacity = '1'
-  //   } else {
-  //     el.style.transform = 'scale(.5)'
-  //     el.style.opacity = '0'
-  //   }
-  // }
-  // useEffect(() => {
-  //   visible()
-  //   window.addEventListener('scroll', visible)
-  //   return () => {
-  //     window.removeEventListener('scroll', visible)
-  //   }
-  // })
 
   return (
     <Wrap
