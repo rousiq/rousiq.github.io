@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/static/js/main.5a0c5f14.chunk.js",
+    "main.js.map": "/static/js/main.5a0c5f14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b3cd9da.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b3cd9da.js.map",
+    "static/js/2.9beba581.chunk.js": "/static/js/2.9beba581.chunk.js",
+    "static/js/2.9beba581.chunk.js.map": "/static/js/2.9beba581.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1859094338674e0a35cd8f74670f3e93.js": "/precache-manifest.1859094338674e0a35cd8f74670f3e93.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/agromirCover.jpg": "/static/media/agromirCover.6e2b8e3c.jpg",
+    "static/media/centilCover.jpg": "/static/media/centilCover.c82f7a16.jpg",
+    "static/media/lpCover.jpg": "/static/media/lpCover.7c72e345.jpg",
+    "static/media/workCover.jpg": "/static/media/workCover.a58ff3ee.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b3cd9da.js",
+    "static/js/2.9beba581.chunk.js",
+    "static/js/main.5a0c5f14.chunk.js"
+  ]
+}
