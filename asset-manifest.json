@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.3a0ec44c.chunk.js",
-    "main.js.map": "/static/js/main.3a0ec44c.chunk.js.map",
+    "main.js": "/static/js/main.be2fedb9.chunk.js",
+    "main.js.map": "/static/js/main.be2fedb9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b3cd9da.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b3cd9da.js.map",
-    "static/js/2.b8212ea7.chunk.js": "/static/js/2.b8212ea7.chunk.js",
-    "static/js/2.b8212ea7.chunk.js.map": "/static/js/2.b8212ea7.chunk.js.map",
+    "static/js/2.14a7aa58.chunk.js": "/static/js/2.14a7aa58.chunk.js",
+    "static/js/2.14a7aa58.chunk.js.map": "/static/js/2.14a7aa58.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8a19948db5f4d3ca18ba27950db32f20.js": "/precache-manifest.8a19948db5f4d3ca18ba27950db32f20.js",
+    "precache-manifest.c78a340b02a83123b984df96ef79c1ab.js": "/precache-manifest.c78a340b02a83123b984df96ef79c1ab.js",
     "service-worker.js": "/service-worker.js",
-    "static/media/agromirCover.jpg": "/static/media/agromirCover.6e2b8e3c.jpg",
-    "static/media/centilCover.jpg": "/static/media/centilCover.c82f7a16.jpg",
-    "static/media/lpCover.jpg": "/static/media/lpCover.7c72e345.jpg",
-    "static/media/workCover.jpg": "/static/media/workCover.a58ff3ee.jpg"
+    "static/media/agromirCover.jpg": "/static/media/agromirCover.e12869d5.jpg",
+    "static/media/centilCover.jpg": "/static/media/centilCover.c523211f.jpg",
+    "static/media/lpCover.jpg": "/static/media/lpCover.894f6652.jpg",
+    "static/media/workCover.jpg": "/static/media/workCover.27908a76.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9b3cd9da.js",
-    "static/js/2.b8212ea7.chunk.js",
-    "static/js/main.3a0ec44c.chunk.js"
+    "static/js/2.14a7aa58.chunk.js",
+    "static/js/main.be2fedb9.chunk.js"
   ]
 }
