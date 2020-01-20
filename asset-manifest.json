@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.0817b17b.chunk.js",
-    "main.js.map": "/static/js/main.0817b17b.chunk.js.map",
+    "main.js": "/static/js/main.b489e8dc.chunk.js",
+    "main.js.map": "/static/js/main.b489e8dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b3cd9da.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b3cd9da.js.map",
     "static/css/2.636c4284.chunk.css": "/static/css/2.636c4284.chunk.css",
     "static/js/2.5172029d.chunk.js": "/static/js/2.5172029d.chunk.js",
     "static/js/2.5172029d.chunk.js.map": "/static/js/2.5172029d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3b55c5fe8240743f56c7aaef22307925.js": "/precache-manifest.3b55c5fe8240743f56c7aaef22307925.js",
+    "precache-manifest.5a957b4b07fe9aa9072a951abe961e70.js": "/precache-manifest.5a957b4b07fe9aa9072a951abe961e70.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.636c4284.chunk.css.map": "/static/css/2.636c4284.chunk.css.map",
     "static/media/agromirCover.jpg": "/static/media/agromirCover.e12869d5.jpg",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.9b3cd9da.js",
     "static/css/2.636c4284.chunk.css",
     "static/js/2.5172029d.chunk.js",
-    "static/js/main.0817b17b.chunk.js"
+    "static/js/main.b489e8dc.chunk.js"
   ]
 }
