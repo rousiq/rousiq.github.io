@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.a5fbfa9a.chunk.js",
-    "main.js.map": "/static/js/main.a5fbfa9a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.9b3cd9da.js",
-    "runtime-main.js.map": "/static/js/runtime-main.9b3cd9da.js.map",
+    "main.js": "/static/js/main.bd295a68.chunk.js",
+    "main.js.map": "/static/js/main.bd295a68.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a18ada2a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a18ada2a.js.map",
     "static/css/2.636c4284.chunk.css": "/static/css/2.636c4284.chunk.css",
-    "static/js/2.edf0ddda.chunk.js": "/static/js/2.edf0ddda.chunk.js",
-    "static/js/2.edf0ddda.chunk.js.map": "/static/js/2.edf0ddda.chunk.js.map",
+    "static/js/2.f95724e6.chunk.js": "/static/js/2.f95724e6.chunk.js",
+    "static/js/2.f95724e6.chunk.js.map": "/static/js/2.f95724e6.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a395ad135f609a07496f2edd71cc4855.js": "/precache-manifest.a395ad135f609a07496f2edd71cc4855.js",
+    "precache-manifest.111577de4f1936bac84e52e1ba9ef9bd.js": "/precache-manifest.111577de4f1936bac84e52e1ba9ef9bd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.636c4284.chunk.css.map": "/static/css/2.636c4284.chunk.css.map",
+    "static/js/2.f95724e6.chunk.js.LICENSE": "/static/js/2.f95724e6.chunk.js.LICENSE",
     "static/media/Centil_1.jpg": "/static/media/Centil_1.c7dc448e.jpg",
     "static/media/Centil_2.jpg": "/static/media/Centil_2.19eb46a4.jpg",
     "static/media/Centil_3.jpg": "/static/media/Centil_3.6e34c98f.jpg",
@@ -27,9 +28,9 @@
     "static/media/cover.jpg": "/static/media/cover.e12869d5.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9b3cd9da.js",
+    "static/js/runtime-main.a18ada2a.js",
     "static/css/2.636c4284.chunk.css",
-    "static/js/2.edf0ddda.chunk.js",
-    "static/js/main.a5fbfa9a.chunk.js"
+    "static/js/2.f95724e6.chunk.js",
+    "static/js/main.bd295a68.chunk.js"
   ]
 }
