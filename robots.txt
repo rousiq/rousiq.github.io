@@ -1,0 +1,8 @@
+User-agent: *
+
+User-agent: Yandex
+Host: rousiq.github.io
+
+User-agent: Googlebot
+Allow: *.css
+Allow: *.js
