@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.00afd891.chunk.js",
-    "main.js.map": "/static/js/main.00afd891.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.50ce2fc7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.50ce2fc7.js.map",
+    "main.js": "/static/js/main.b73b6ee2.chunk.js",
+    "main.js.map": "/static/js/main.b73b6ee2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ffae0f3c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ffae0f3c.js.map",
     "static/css/2.4f0dc947.chunk.css": "/static/css/2.4f0dc947.chunk.css",
-    "static/js/2.88e04f67.chunk.js": "/static/js/2.88e04f67.chunk.js",
-    "static/js/2.88e04f67.chunk.js.map": "/static/js/2.88e04f67.chunk.js.map",
-    "static/js/3.63302ecb.chunk.js": "/static/js/3.63302ecb.chunk.js",
-    "static/js/3.63302ecb.chunk.js.map": "/static/js/3.63302ecb.chunk.js.map",
+    "static/js/2.e86752a2.chunk.js": "/static/js/2.e86752a2.chunk.js",
+    "static/js/2.e86752a2.chunk.js.map": "/static/js/2.e86752a2.chunk.js.map",
+    "static/js/3.07167366.chunk.js": "/static/js/3.07167366.chunk.js",
+    "static/js/3.07167366.chunk.js.map": "/static/js/3.07167366.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.69b7232173f5bf925baab06e68654156.js": "/precache-manifest.69b7232173f5bf925baab06e68654156.js",
+    "precache-manifest.b872c3fbfbb64576c79bac50415fd608.js": "/precache-manifest.b872c3fbfbb64576c79bac50415fd608.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4f0dc947.chunk.css.map": "/static/css/2.4f0dc947.chunk.css.map",
-    "static/js/2.88e04f67.chunk.js.LICENSE.txt": "/static/js/2.88e04f67.chunk.js.LICENSE.txt",
+    "static/js/2.e86752a2.chunk.js.LICENSE.txt": "/static/js/2.e86752a2.chunk.js.LICENSE.txt",
     "static/media/Centil_1.jpg": "/static/media/Centil_1.c7dc448e.jpg",
     "static/media/Centil_2.jpg": "/static/media/Centil_2.19eb46a4.jpg",
     "static/media/Centil_3.jpg": "/static/media/Centil_3.6e34c98f.jpg",
@@ -41,12 +41,12 @@
     "static/media/Weight_1.jpg": "/static/media/Weight_1.e350a519.jpg",
     "static/media/Weight_2.jpg": "/static/media/Weight_2.b027db70.jpg",
     "static/media/Weight_3.jpg": "/static/media/Weight_3.82b8bdd2.jpg",
-    "static/media/cover.jpg": "/static/media/cover.ebee583b.jpg"
+    "static/media/cover.jpg": "/static/media/cover.e4db3f71.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.50ce2fc7.js",
+    "static/js/runtime-main.ffae0f3c.js",
     "static/css/2.4f0dc947.chunk.css",
-    "static/js/2.88e04f67.chunk.js",
-    "static/js/main.00afd891.chunk.js"
+    "static/js/2.e86752a2.chunk.js",
+    "static/js/main.b73b6ee2.chunk.js"
   ]
 }
